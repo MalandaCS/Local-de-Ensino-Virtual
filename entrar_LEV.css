@@ -1,0 +1,51 @@
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(header01.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	background-size: cover;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 1fr);
+	grid-template-rows: repeat(auto-fill, 1fr);
+	
+}
+
+/*.container{
+	width: 100%;
+	height: 100%;
+	align-content: center;
+}*/
+
+
+.row{
+	color: antiquewhite;
+}
+
+.buffer1{
+	height: 2rem;
+}
+
+input{
+	font-weight: 700;
+	border-radius: 200px;
+	background-color: darkred;
+	border-color: darkred;
+	color: white;
+}
+
+
+.buffer2{
+	height: 4rem;
+}
+
+h6{
+	color:  cyan;
+}
